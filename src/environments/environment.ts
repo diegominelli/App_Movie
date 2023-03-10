@@ -1,9 +1,13 @@
+import { ConfiguratioModel } from './interface/configuration.model';
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-export const environment = {
-  production: false
+export const environment: ConfiguratioModel = {
+  production: false,
+  apiBase: 'https://api.themoviedb.org/4/',
+  token:
+    'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZTNkMzUyOWRlODY0OWRlYmE0MmU2MDQxOTliMjAxNyIsInN1YiI6IjYwZTY0ZGE5NmVlM2Q3MDA0NmM0OWQ4ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.MG6FVXeuox1EqV2jxwoEZfEi-n8pfEhXIXN3DBzm79w',
 };
 
 /*
