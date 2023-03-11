@@ -1,4 +1,4 @@
-import { HttpBaseService } from './../shared/base/http-base.service';
+import { HttpBaseService } from '../../shared/base/http-base.service';
 import { Injectable, Injector } from '@angular/core';
 
 @Injectable()
